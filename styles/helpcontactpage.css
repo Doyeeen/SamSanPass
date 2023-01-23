@@ -1,0 +1,90 @@
+.contactpagecontainer{
+    width:100%;
+    height: 800px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.contactcontainer{
+    width:1450px;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 70px;
+    padding-top: 50px;
+}
+.contact{
+    font-size: 60px;
+}
+.fixcontainer{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+.infocontainer{
+    width:auto;
+    height: 600px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.text{
+    text-align: justify;
+}
+
+.contactform{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    width: auto;
+    margin-right: -10px;
+}
+.contactwrapper{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactcont {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+input.name .email .number{
+    width: 200px;
+    height: 20px;
+}
+textarea{
+    height: 225px;
+    width: 520px;
+}
+
+.btn{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.29);
+}
+
+
